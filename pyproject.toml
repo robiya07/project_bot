@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "project-bot2"
+version = "0.1.0"
+description = ""
+authors = ["robiya07 <obidjonova07@mail.ru>"]
+readme = "README.md"
+packages = [{include = "project_bot2"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^2.25.1"
+sqlalchemy = "^2.0.3"
+python-dotenv = "^0.21.1"
+asyncpg = "^0.27.0"
+alembic = "^1.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
