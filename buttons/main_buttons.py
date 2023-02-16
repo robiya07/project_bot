@@ -1,4 +1,4 @@
-from handlers import lang
+from loader import lang
 from aiogram.types import KeyboardButton
 
 give_orders = {

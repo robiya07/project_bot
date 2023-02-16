@@ -1,4 +1,4 @@
-from handlers import lang
+from loader import lang
 
 basket = {
     'en': '📥 Cart',

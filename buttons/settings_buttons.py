@@ -1,6 +1,6 @@
 from aiogram.types import KeyboardButton
 
-from handlers import lang
+from loader import lang
 
 settings = {
     'en': '⚙️ Settings',
